@@ -39,6 +39,8 @@ public:
                 {
                     head=kth;
                 }
+
+                
                 else{
 
                     prev->next=kth;
