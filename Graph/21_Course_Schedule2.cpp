@@ -4,7 +4,7 @@ class Solution {
             vector<vector<int>> adjList(numCourses);
             for(auto it:prerequisites)
             {
-                adjList[it[1]].push_back(it[0]);
+                adjList[it[1]].push_back(it[0]); // directed edge from it[1] to it[0]
             }
             vector<int> indegree(numCourses);
             for(int i=0;i<numCourses;i++)
